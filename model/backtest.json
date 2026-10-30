@@ -1,0 +1,65 @@
+[
+  {
+    "start": "2012-11-01",
+    "n": 7,
+    "actual_mean": 5436.857142857143,
+    "forecast_mean": 5183.979250049249,
+    "baseline_mean": 4828.285714285715
+  },
+  {
+    "start": "2012-11-08",
+    "n": 7,
+    "actual_mean": 5793.285714285715,
+    "forecast_mean": 5068.53538901852,
+    "baseline_mean": 5436.857142857143
+  },
+  {
+    "start": "2012-11-15",
+    "n": 7,
+    "actual_mean": 5388.571428571428,
+    "forecast_mean": 5066.869353316992,
+    "baseline_mean": 5793.285714285715
+  },
+  {
+    "start": "2012-11-22",
+    "n": 7,
+    "actual_mean": 3620.285714285714,
+    "forecast_mean": 3918.761391118548,
+    "baseline_mean": 5388.571428571428
+  },
+  {
+    "start": "2012-11-29",
+    "n": 7,
+    "actual_mean": 5628.571428571428,
+    "forecast_mean": 4671.539764102852,
+    "baseline_mean": 3620.285714285714
+  },
+  {
+    "start": "2012-12-06",
+    "n": 7,
+    "actual_mean": 5026.142857142857,
+    "forecast_mean": 4933.037484505447,
+    "baseline_mean": 5628.571428571428
+  },
+  {
+    "start": "2012-12-13",
+    "n": 7,
+    "actual_mean": 5055.0,
+    "forecast_mean": 4692.7888490548485,
+    "baseline_mean": 5026.142857142857
+  },
+  {
+    "start": "2012-12-20",
+    "n": 7,
+    "actual_mean": 1951.5714285714287,
+    "forecast_mean": 3422.478056097227,
+    "baseline_mean": 5055.0
+  },
+  {
+    "start": "2012-12-27",
+    "n": 5,
+    "actual_mean": 2215.0,
+    "forecast_mean": 1777.3716897159513,
+    "baseline_mean": 2441.4
+  }
+]

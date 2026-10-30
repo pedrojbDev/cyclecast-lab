@@ -1,0 +1,12 @@
+{
+  "training_type": "from-scratch",
+  "dataset_license": "CC-BY-4.0",
+  "dataset": "UCI Bike Sharing, 2013, DOI:10.24432/C5W894",
+  "dataset_url": "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip",
+  "dataset_archive_sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+  "training_commit": "9225aeeec4f66b1db0b822b6498a2acfddc6f6e7",
+  "split_method": "chronological target date: train through 2012-08-31, validation Sep-Oct, test Nov-Dec 2012",
+  "artifact_sha256": "97ade0565ab943372ad9dad6972be9bb5fb01c79dc65ae498835fcca302470e2",
+  "model": "MLPRegressor (64,32), ReLU, seed 42",
+  "python": "3.12.3"
+}

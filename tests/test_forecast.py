@@ -70,3 +70,13 @@ def test_api_validates_and_forecasts():
         .status_code
         == 503
     )
+
+
+def test_dashboard_exposes_aggregated_backtest():
+    client = TestClient(create_app(None))
+    response = client.get("/api/backtest")
+    assert response.status_code == 200
+    records = response.json()
+    assert len(records) == 9
+    assert records[0]["start"] == "2012-11-01"
+    assert {"actual_mean", "forecast_mean", "baseline_mean"} <= records[0].keys()

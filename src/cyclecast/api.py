@@ -33,6 +33,13 @@ def create_app(model):
     def home():
         return FileResponse(ROOT / "web" / "index.html")
 
+    @app.get("/api/backtest")
+    def backtest():
+        path = ROOT / "model" / "backtest.json"
+        if not path.exists():
+            raise HTTPException(status_code=503, detail="Backtest unavailable")
+        return json.loads(path.read_text())
+
     @app.post("/api/forecast")
     def prediction(request: ForecastRequest):
         if model is None:
