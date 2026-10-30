@@ -1,0 +1,46 @@
+{
+  "seed": 42,
+  "train_days": 602,
+  "validation": {
+    "n": 61,
+    "mae": 1045.6615433360744,
+    "rmse": 1473.255932961053,
+    "baseline_mae": 1164.344262295082,
+    "baseline_rmse": 1820.4523172399388,
+    "coverage": 0.9180327868852459,
+    "mean_interval_width": 4444.321123393945
+  },
+  "test": {
+    "n": 61,
+    "mae": 924.6214131641246,
+    "rmse": 1120.4129031875757,
+    "baseline_mae": 1486.704918032787,
+    "baseline_rmse": 1968.9103044286314,
+    "coverage": 0.9672131147540983,
+    "mean_interval_width": 4404.978107170296
+  },
+  "test_months": {
+    "2012-11": {
+      "n": 30,
+      "mae": 900.3207303936798,
+      "rmse": 1091.3700254920225,
+      "baseline_mae": 1571.5333333333333,
+      "baseline_rmse": 2017.2812396887055,
+      "coverage": 1.0,
+      "mean_interval_width": 4444.3211233939455
+    },
+    "2012-12": {
+      "n": 31,
+      "mae": 948.1382029419746,
+      "rmse": 1147.819440604356,
+      "baseline_mae": 1404.6129032258063,
+      "baseline_rmse": 1920.9403527204267,
+      "coverage": 0.9354838709677419,
+      "mean_interval_width": 4366.90422050225
+    }
+  },
+  "interval_radius": 2222.160561696972,
+  "fit_iterations": 125,
+  "seconds": 0.1793070720000287,
+  "peak_rss_kib_linux": 120696
+}
